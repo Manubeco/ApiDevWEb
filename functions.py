@@ -30,8 +30,8 @@ def alterar_conta(account_id):
 
 def procura_conta(id_conta):
     for i in range(len(Conta)):
-        for k,v in Conta[i].items():
-            if(v==id_conta):
+        for k, v in Conta[i].items():
+            if v == id_conta:
                 print(Conta[id_conta])
 
 # @app.route('/exibir_conta', methods=["GET"])

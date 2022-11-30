@@ -29,7 +29,7 @@ def alterar_conta():
         for v in Conta[i].values():
             if v == 2:
                 Conta[i] = nova_conta
-                return "Conta alterada com sucesso!"
+                return make_response(jsonify(mensagem="Conta alterada com sucesso!"))
 
     
 @app.route('/conta', methods=["DELETE"])

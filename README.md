@@ -11,6 +11,8 @@ Projeto realizado e testado com as ferramentas VScode e Postman.
 
 4 métodos (GET, POST, PUT E DELETE) implementados! 
 
+A api utiliza uma simulação de banco de dados por meio de dicionários no arquivo bDados.py
+
 Por favor enviar os dados para o POST e PUT via body Json no Postman.
 
 Para simplificação os metodos PUT e DELETE interagem com uma posição pré-setada do dicionário.
